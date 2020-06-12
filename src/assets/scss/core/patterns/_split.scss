@@ -82,8 +82,8 @@
 	    }
 
 		.split-item {
-			padding-top: $split-item--padding-v__desktop / 2;
-			padding-bottom: $split-item--padding-v__desktop / 2;
+			padding-top: ($split-item--padding-v__desktop + 70px ) / 2;
+			padding-bottom: ($split-item--padding-v__desktop + 70px ) / 2;
 			flex-direction: row;
 			flex-wrap: nowrap;
 			align-items: center;

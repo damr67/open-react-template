@@ -3,6 +3,9 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import image1 from '../../assets/images/undraw_social_interaction_cy9i.svg';
+import image2 from '../../assets/images/undraw_pride_y0te.svg';
+import image3 from '../../assets/images/undraw_accept_tasks_po1c.svg';
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -70,10 +73,10 @@ const FeaturesSplit = ({
                   Lightning fast workflow
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Quien Soy
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Life Coach Profesional certificada por ILC Academy (International Life and Leadership Coaching Academy) con sede en Miami, Estados Unidos; fundada por Fernando Celis, con Licencia autorizada de la International Association of Coaching (IAC) y el Aval de IAPLC (International Association of Professional Life Coaches), ambas de U.S.A.
                   </p>
               </div>
               <div className={
@@ -83,7 +86,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={image1}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -96,10 +99,10 @@ const FeaturesSplit = ({
                   Lightning fast workflow
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Coaching
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Como coach de vida certificada, estoy comprometida en promover de forma genuina y responsable, el coaching de vida para impulsar el desarrollo personal y profesional de las personas. Creo en la generosidad, bondad y amor de las personas. Ser coach me brinda la oportunidad de retribuir todo lo recibido, es mi forma de contribuir al crecimiento de las personas.
                   </p>
               </div>
               <div className={
@@ -109,7 +112,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={image2}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -122,10 +125,10 @@ const FeaturesSplit = ({
                   Lightning fast workflow
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Haz tu sueño realidad
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Cada día estoy más feliz de poder ayudarte  a que logres ese sueño que tanto quieres, te ofrezco las herramientas y técnicas que yo misma he utilizado en mi negocio y que me permiten crecer, florecer y prosperar para tener la vida que nunca antes me hubiera imaginado.
                   </p>
               </div>
               <div className={
@@ -135,7 +138,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={image3}
                   alt="Features split 03"
                   width={528}
                   height={396} />

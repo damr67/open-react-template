@@ -61,19 +61,19 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+              Coaching para un cambio de <span className="text-color-primary">vida</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
-                </p>
+              Voy a potenciar tus talentos innatos, esos que no ves y siempre han estado allí esperando por ti para descubrirlos. Descubre como derribar tus creencias limitantes con este test gratuito.
+              </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get started
+                    Acceder al Reto
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
+                    Descubrir
                     </Button>
                 </ButtonGroup>
               </div>
